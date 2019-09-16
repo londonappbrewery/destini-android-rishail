@@ -24,7 +24,7 @@
         android:textColor="#ffffffff"/>
 
     <Button
-        android:id="@+id/buttonTop"
+        android:id="@+id/buttontop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/T1_Ans1"
@@ -39,15 +39,15 @@
         android:textSize="15sp"/>
 
     <Button
-        android:id="@+id/buttonBottom"
+        android:id="@+id/buttonbottom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/T1_Ans2"
         android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/buttonTop"
-        android:layout_alignStart="@+id/buttonTop"
-        android:layout_alignRight="@+id/buttonTop"
-        android:layout_alignEnd="@+id/buttonTop"
+        android:layout_alignLeft="@+id/buttontop"
+        android:layout_alignStart="@+id/buttontop"
+        android:layout_alignRight="@+id/buttontop"
+        android:layout_alignEnd="@+id/buttontop"
         android:background="#3498db"
         android:textColor="#ecf0f1"
         android:textSize="15sp"/>
